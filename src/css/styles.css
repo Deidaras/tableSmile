@@ -1,0 +1,106 @@
+@font-face { 
+  font-family: Inter;
+  src: url('Inter/static/Inter-Medium.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Inter' !important;
+}
+
+.header_column {
+  background-color: #A9A9A9 !important;
+  font-weight:300;
+}
+
+.index_column {
+  background-color: #878787 !important;
+  font: weight 1.2rem;
+}
+
+.target_column {
+  background-color: #CADBF4 !important;
+  font: weight 1.2rem;
+}
+
+.button-menu {
+  float: right !important;
+  margin: 0;
+  max-width: 100%;
+  padding: 5px;
+}
+
+.img-button {
+  padding: 0; 
+}
+
+
+.header-name {
+  float: left;
+}
+
+.dropdown {
+  display: grid;
+  grid-template-columns: auto auto; 
+  align-items: center;
+}
+
+.bordered_table {
+  border: #5B5B5B !important;
+  border: 1px;
+  margin-top: 20px;
+}
+
+.icon_delete {
+  background: url("/public/images/icon-delete-24.png") no-repeat left;
+  background-size: 16px;
+  background-color: transparent; 
+  background-repeat: no-repeat;  
+  background-position: 1px 1px;
+  border-color: #5B5B5B;
+  border-width: 1px;
+  border-radius: 3px;
+  cursor: pointer; 
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+}
+
+.filters {
+  display: inline;
+}
+
+
+.download_file {
+  margin-top: 20px;
+}
+
+.input_url {
+  width: 50%;
+  margin-top: 20px;
+  margin-left: 20px;
+  justify-content: center; 
+}
+
+
+.input_filter {
+  width: 100%;
+
+}
+
+.table-container {
+  max-width: 95%; 
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.text-table {
+  font-size: 0.9rem;
+}
+
+.dropdown-menu {
+  border-color: #024A7E;
+}

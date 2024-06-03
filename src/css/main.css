@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Inter;
+    src: url('Inter/static/Inter-Medium.ttf');
+  
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  * {
+    font-family: Inter;
+    
+  }
+  
+  .Column {
+    background-color: #A9A9A9;
+  }
