@@ -1,5 +1,6 @@
 import React from "react";
 import Table_Smile from "./Table";
+import './css/styles.css';
 
 class Upload_Data extends React.Component {
   constructor(props) {
@@ -36,12 +37,13 @@ class Upload_Data extends React.Component {
           <div>
             <input
               type="text"
-              placeholder={"Input url"}
+              placeholder="Вставьте ссылку на данные"
               className="input_url"
               value={url}
               onChange={this.handleInputChange}
             />
-            <button  onClick={this.handleSubmit}>Submit</button>
+          <button className="button-submit" onClick={this.handleSubmit}>Отправить</button>
+            
           </div>
         )}
       </div>
